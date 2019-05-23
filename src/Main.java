@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Hello");
         char myChar = 'a';
         System.out.println(myChar);
+        System.out.println("TTT");
 
 
 
