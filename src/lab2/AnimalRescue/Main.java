@@ -11,6 +11,12 @@ public class Main {
         dog.drink();
         dog.play();
 
+        AnimalFood food = new AnimalFood();
+        System.out.println(food.getFoodName());
+        System.out.println(food.getAvailability());
+        System.out.println(food.getQuantity());
+        System.out.println(food.getQuantity());
+
 
     }
 
