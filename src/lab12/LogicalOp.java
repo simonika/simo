@@ -83,4 +83,67 @@ public class LogicalOp {
             System.out.println(printSymbol);
         }
     }
+
+    public void printToHundredWhile(int number){
+        while (number<=100){
+            System.out.println(number);
+            number++;
+
+        }
+
+    }
+
+
+    public void printToHundreBackwardsWhile(int number){
+        //
+        while (number>= -100){
+            System.out.println(number);
+            number--;
+
+        }
+
+    }
+
+    public void printBetweenNumbersWhile( int firstParam, int secondParam ){
+
+        while(firstParam<= secondParam){
+            System.out.println(firstParam);
+            firstParam++;
+        }
+
+        while(firstParam >= secondParam){
+            System.out.println(secondParam);
+            secondParam++;
+        }
+
+
+    }
+
+    public void printEvenNumbersWhile(){
+        int i = 0;
+        while( i < 100){
+            if(i % 2 == 0)
+            System.out.println(i);
+            i++;
+        }
+
+    }
+
+    public void printUevenNumbersWhile(){
+        int i = 0;
+        while( i < 100){
+            if(i % 2 != 0) {
+                System.out.println(i);
+            }
+            i++;
+        }
+
+    }
+
+
+
+
+
+
+
 }

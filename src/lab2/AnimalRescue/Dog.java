@@ -1,6 +1,6 @@
 package lab2.AnimalRescue;
 
-public class Dog {
+public class Dog extends Animal {
     private String breed = "Husky";
     private String age = "2 years";
     private String heigh = "0.8 m";
@@ -22,6 +22,10 @@ public class Dog {
 
     public void sleep() {
         System.out.println(name + " is snoring");
+    }
+
+    public void walksByFeet() {
+        System.out.println("Walks by 4 feet!!");
     }
 
     public String getAge() {
